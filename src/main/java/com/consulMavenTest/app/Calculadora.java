@@ -1,6 +1,6 @@
 package com.consulMavenTest.app;
 
-public class calculator {
+public class Calculadora {
 
     public float suma(float num1, float num2){
         return num1+num2;
