@@ -10,25 +10,25 @@ public class Api {
 
         get("/calculator/suma/:num1/:num2", (req, res) -> {
             float num1 = parseFloat(req.params(":num1"));
-            float num2 = parseFloat(req.params(":num2"))
+            float num2 = parseFloat(req.params(":num2"));
             return calculadora.suma(num1, num2);
         });
 
         get("/calculator/resta/:num1/:num2", (req, res) -> {
             float num1 = parseFloat(req.params(":num1"));
-            float num2 = parseFloat(req.params(":num2"))
+            float num2 = parseFloat(req.params(":num2"));
             return calculadora.resta(num1, num2);
         });
 
         get("/calculator/multiplicacion/:num1/:num2", (req, res) -> {
             float num1 = parseFloat(req.params(":num1"));
-            float num2 = parseFloat(req.params(":num2"))
+            float num2 = parseFloat(req.params(":num2"));
             return calculadora.multiplicacion(num1, num2);
         });
 
         get("/calculator/division/:num1/:num2", (req, res) -> {
             float num1 = parseFloat(req.params(":num1"));
-            float num2 = parseFloat(req.params(":num2"))
+            float num2 = parseFloat(req.params(":num2"));
             return calculadora.division(num1, num2);
         });
     }
